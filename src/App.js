@@ -109,7 +109,6 @@ function App() {
       role="sync"
       token="floodingAndRainhazardSyncWupp"
     >
-      _customer
       <TopicMapContextProvider
         appKey={"cismetRainhazardMap.Wuppertal"}
         referenceSystem={MappingConstants.crs3857}
