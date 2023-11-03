@@ -105,7 +105,10 @@ function App() {
   }, []);
 
   return (
-    <CrossTabCommunicationContextProvider>
+    <CrossTabCommunicationContextProvider
+      role="sync"
+      token="floodingAndRainhazardSyncWupp"
+    >
       _customer
       <TopicMapContextProvider
         appKey={"cismetRainhazardMap.Wuppertal"}
