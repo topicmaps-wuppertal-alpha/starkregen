@@ -179,7 +179,7 @@ function App() {
           gazData={gazData}
         >
           <NotesDisplay hinweisData={hinweisData} />
-          <CrossTabCommunicationControl />
+          <CrossTabCommunicationControl hideWhenNoSibblingIsPresent={true} />
         </HeavyRainHazardMap>
       </TopicMapContextProvider>
     </CrossTabCommunicationContextProvider>
