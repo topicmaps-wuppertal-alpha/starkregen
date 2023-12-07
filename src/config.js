@@ -7,6 +7,7 @@ const config = {
   upperleftX: 780160.203, //take a depth3857.tif and run gdalinfo on it get the pixelsize and upperleftcorner info from there
   upperleftY: 6678245.042,
   pixelsize: 1.595781324768881,
+
   minAnimationZoom: 17,
   minFeatureInfoZoom: 19,
   timeSeriesAvailable: true,
